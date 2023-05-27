@@ -74,7 +74,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         if GITHUB_REPO:
             buttons.append(
                 [
-                    InlineKeyboardButton(text=_["S_B_6"], url=f"https://github.com/itz-star-boi/ShizukaXMusic"),
+                    InlineKeyboardButton(text=_["S_B_6"], url=f"https://te.legra.ph/file/aa20107bec6c9e3638ab4.mp4"),
                 ]
             )
         if OWNER:
