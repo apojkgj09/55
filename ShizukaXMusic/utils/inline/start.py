@@ -67,7 +67,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         buttons.append(
             [
                 InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER),
-                InlineKeyboardButton(text=_["S_B_6"], url=f"https://github.com/itz-star-boi/ShizukaXMusic"),
+                InlineKeyboardButton(text=_["S_B_6"], url=f"https://te.legra.ph/file/7e30d55d71ba17b200a19.mp4"),
             ]
         )
     else:
