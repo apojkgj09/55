@@ -8,12 +8,12 @@ from ShizukaXMusic.utils.database import get_assistant
 
 @app.on_message(filters.voice_chat_started)
 async def stcall(client: Client, message: Message): 
-      Startt = "تم بدأ محادثه صوتيه"
+      Startt = "**تـم فتـح المحـادثه الصـوتيه**"
       await message.reply_text(Startt)
 
 @app.on_message(filters.voice_chat_ended)
 async def encall(client: Client, message: Message): 
-      Enddd = "تم إغلاق المحادثه الصوتيه"
+      Enddd = "**تـم إغـلاق المحـادثه الصـوتيه**"
       await message.reply_text(Enddd)
 
 @app.on_message(filters.voice_chat_members_invited)
@@ -49,7 +49,7 @@ from ShizukaXMusic.utils.database import get_assistant
 
 async def stcall(client: Client, message: Message): 
 
-      Startt = "تم بدأ محادثه صوتيه"
+      Startt = "**تم فتـح المحـادثه الصـونيه**"
 
       await message.reply_text(Startt)
 
@@ -57,7 +57,7 @@ async def stcall(client: Client, message: Message):
 
 async def encall(client: Client, message: Message): 
 
-      Enddd = "تم إغلاق المحادثه الصوتيه"
+      Enddd = "**تـم إغـلاق المحـادثه الصوتيه**"
 
       await message.reply_text(Enddd)
 
