@@ -16,12 +16,14 @@ from ShizukaXMusic.utils.thumbnails import gen_thumb
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
 
-
 @app.on_message(
     filters.command(SKIP_COMMAND) & filters.group & ~filters.edited & ~BANNED_USERS
 )
-@AdminRightsCheck
-async def skip(cli, message: Message, _, chat_id):
+@app.on_message(
+    filters.command(["التالي","لندا غيري","تخطي"],"") & filters.group & ~filters.edited & ~BANNED_USERS
+)
+@AdminRightsCheck    
+async def skip(cli, message: Message, _, chat_id): 
     if not len(message.command) < 2:
         loop = await get_loop(chat_id)
         if loop != 0:
