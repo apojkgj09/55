@@ -1,7 +1,7 @@
 {
-    "name": "Shizuka Music Bot",
-    "description": "Shizuka Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/798b7275e58d09ac6b095.jpg",
+    "name": "𝙨𝙤𝙪𝙧𝙘𝙚 𝙡𝙞𝙣𝙙𝙖",
+    "description": "Linda Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://graph.org/file/c990c7c6d1f3e7e42812f.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,54 +14,44 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "ضـع الايبـي الايـدي",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "ضـع الايبـي هاش",
         "value": "",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "description": "اذا ڪنت تريد المساعـد يغادر من المجماعات خليها ڪما هـي.",
         "value": "True",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "ضـع توڪن بـوتك",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Ramdi's database for you.",
+        "description": "ضـع ڪـود المانجـو.",
         "value": "",
-        "required": true
+        "required": false
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
+        "description": "اڪتـب اسم بـوتك",
         "value": "⁪⁬",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5463205082",
+        "description": "ايـدي المطـور.",
+        "value": "6274098601",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "ڪـود البايـروجـرام",
         "value": "",
         "required": true
-      },
-      "SUPPORT_GROUP": {
-        "description": "Your Support Group link ",
-        "value": "https://t.me/Star_X_Support",
-        "required": false
-      },
-      "SUPPORT_CHANNEL": {
-        "description": "Your Updates Channel link",
-        "value": "https://t.me/Star_X_Network",
-        "required": false
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
@@ -74,23 +64,23 @@
         "required": false
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "ضـع الايبـي ڪي",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
+        "description": "ضـع اسمك بهيـروڪو",
         "value": "",
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "ايـدي الجـروب.",
         "value": "",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/itz-star-boi/ShizukaXMusic",
+        "value": "https://github.com/apojkgj09/Ali500",
         "required": true
       },
       "UPSTREAM_BRANCH": {
