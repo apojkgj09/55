@@ -21,7 +21,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5809896714 6263359697").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -33,18 +33,22 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-CHANNEL = getenv(
-    "CHANNEL", "FH_KN"
-)  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
+# Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/FH_KN"
-)  # قناة السورس هيك https://t.me/M_O_D_Y_CH
+    "CHANNEL_SUDO", "FH_KN"
+)  # معرف قناتك بدون @
+YAFA_NAME = getenv(
+    "YAFA_NAME", "نۨۨۨۨۨۨۨۨص֓ف֛يަ اࠗلثֻاࠗنۨۨۨۨۨۨۨۨيަ²³♡|𝅘𝅥𝅮|𖤟"
+)  # اسم قناتك
+YAFA_CHANNEL = getenv(
+   " YAFA_CHANNEL", "https://t.me/FH_KN"
+)  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/FH_KN"
-)  #جروب السورس https://t.me/BarGohara
+    "SUPPORT_CHANNEL", "https://t.me/KB_HE"
+)  # رابط قناتك
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/FH_KP"
-) 
+)  # رابط كروبك
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
