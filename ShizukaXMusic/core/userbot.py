@@ -69,7 +69,7 @@ class Userbot(Client):
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"**» **تم تشغيل المساعد بنجاح**"
+                    config.LOG_GROUP_ID, f"**»تم تشغيل المساعد بنجاح**"
                 )
             except:
                 LOGGER(__name__).error(
